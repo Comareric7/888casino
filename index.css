@@ -245,7 +245,7 @@ body{
         width: 90%;
         grid-template-columns: repeat(1, 1fr);
         grid-gap: 30px;
-        margin-top: 80px;
+        margin-top: 85px;
         padding: 900px 10px;
     }
 }
