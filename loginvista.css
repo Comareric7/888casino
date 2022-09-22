@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background: url(./img/login2.jpeg);
+
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 100%;
+    padding: 15px;
+}
+
+.formulario-registro {
+    background: rgb(251, 251, 251);
+    margin-top: 150px;
+    padding: 3px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-size: 40px;
+}
+
+input[type='text'],
+input[type='password'] {
+    font-size: 20px;
+    width: 82%;
+    padding: 10px;
+    border: none;
+}
+
+.input-container {
+    margin-bottom: 15px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+
+.button {
+    border: none;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    background: rgb(195, 15, 15);
+    padding: 15px 20px;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.button:hover {
+    background: rgb(193, 11, 11);
+}
+
+p {
+    text-align: center;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(188, 41, 41);
+    font-weight: 600;
+}
+.link:hover{
+    color:rgb(255, 47, 47)
+}
+
+@media(min-width:768px)
+{
+    .formulario-registro {
+        margin: auto;
+        width: 500px;
+        margin-top: 150px;
+        border-radius: 2%;
+    }
+}
